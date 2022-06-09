@@ -8,10 +8,9 @@ const Header = () => {
         <a href="https://drive.google.com/file/d/1FGB8yt5VLUZdY_tu_szFQsKqZnMqCDxI/view?usp=sharing" download target="_blank" rel="noreferrer">
             <button className="btn btn-primary">Download Resume</button>
         </a>
-
     </>
     return (
-        <div className="navbar bg-neutral sticky top-0 text-neutral-content">
+        <div className="navbar bg-base-100">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">
