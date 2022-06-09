@@ -10,7 +10,7 @@ const Projects = () => {
         { id: "1", name: "Sazid's English Coaching", img: project3 }
     ]
     return (
-        <div>
+        <div id='projects'>
             <h2 className='text-5xl font-bold text-center pb-10'>My Projects</h2>
             <div className='flex justify-center'>
                 <div className='grid grid-cols-1 lg:grid-cols-3'>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     const navContent = <>
         <li><Link to='/'>Home</Link></li>
-        <li><Link to='/'>Projects</Link></li>
+        <li><Link to='/home#projects'>Projects</Link></li>
         <li><Link to='/'>Contact Me</Link></li>
         <a href="https://drive.google.com/file/d/1FGB8yt5VLUZdY_tu_szFQsKqZnMqCDxI/view?usp=sharing" download target="_blank" rel="noreferrer">
             <button className="btn btn-primary">Download Resume</button>
