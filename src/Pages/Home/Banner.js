@@ -2,8 +2,8 @@ import React from 'react';
 import profileImg from '../../images/profile-img.png'
 const Banner = () => {
     return (
-        <div className="hero min-h-screen bg-base-100">
-            <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="grid min-h-screen bg-base-100">
+            <div className="flex items-center justify-center flex-col lg:flex-row-reverse">
                 <img src={profileImg} className="max-w-sm" alt='' />
                 <div className='px-5'>
                     <h1 className="text-5xl font-bold">Hi, This is Sheikh MD Sazidul Islam</h1>

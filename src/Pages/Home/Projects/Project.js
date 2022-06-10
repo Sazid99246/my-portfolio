@@ -3,7 +3,7 @@ import React from 'react';
 const Project = ({ project }) => {
     const { img, name } = project
     return (
-        <div class="card lg:w-96 bg-base-100 mx-auto lg:mx-10 my-5 lg:my-0 max-w-sm w-screen shadow-lg">
+        <div class="card lg:w-96 bg-base-100 mx-auto lg:mx-10 my-5 max-w-sm w-screen shadow-lg">
             <figure><img className='' src={img} alt="Shoes" /></figure>
             <div class="card-body">
                 <div className='flex justify-center'>

@@ -2,15 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const Header = () => {
     const navContent = <>
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to='/home#projects'>Projects</Link></li>
+        <li><a href='home#projects'>Projects</a></li>
         <li><Link to='/'>Contact Me</Link></li>
         <a href="https://drive.google.com/file/d/1FGB8yt5VLUZdY_tu_szFQsKqZnMqCDxI/view?usp=sharing" download target="_blank" rel="noreferrer">
             <button className="btn btn-primary">Download Resume</button>
         </a>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 sticky top-0">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -20,7 +19,7 @@ const Header = () => {
                         {navContent}
                     </ul>
                 </div>
-                <button className="btn btn-ghost normal-case text-xl">Sheikh MD Sazidul Islam</button>
+                <a href="#home" className="btn btn-ghost normal-case text-xl">Sheikh MD Sazidul Islam</a>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
