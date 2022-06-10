@@ -1,15 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 const Header = () => {
     const navContent = <>
         <li><a href='home#projects'>Projects</a></li>
-        <li><Link to='/'>Contact Me</Link></li>
+        <li><a href='home#contact'>Contact Me</a></li>
         <a href="https://drive.google.com/file/d/1FGB8yt5VLUZdY_tu_szFQsKqZnMqCDxI/view?usp=sharing" download target="_blank" rel="noreferrer">
             <button className="btn btn-primary">Download Resume</button>
         </a>
     </>
     return (
-        <div className="navbar bg-base-100 sticky top-0">
+        <div className="navbar bg-base-100 sticky top-0 z-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-ghost lg:hidden">

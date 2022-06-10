@@ -24,7 +24,6 @@ const Projects = () => {
             <div className='flex justify-center'>
                 <Swiper
                     spaceBetween={30}
-                    slidesPerView={3}
                     pagination={{
                         clickable: true,
                     }}
@@ -35,6 +34,14 @@ const Projects = () => {
                     centeredSlides={true}
                     modules={[Pagination, Autoplay]}
                     className="mySwiper"
+                    breakpoints={{
+                        1024: {
+                          slidesPerView: 3,
+                        },
+                        640: {
+                          slidesPerView: 1,
+                        },
+                      }}                    
                 >
                     {
                         projects.map(project =>
